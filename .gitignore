@@ -5,6 +5,11 @@ __pycache__/
 
 # C extensions
 *.so
+#dirs
+resutls/
+geo_raw/
+processed_data/
+
 
 # Distribution / packaging
 .Python
