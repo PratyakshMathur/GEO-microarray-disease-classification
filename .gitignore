@@ -5,10 +5,18 @@ __pycache__/
 
 # C extensions
 *.so
-#dirs
-resutls/
+
+# Project-specific directories
+
+
 geo_raw/
 processed_data/
+data/
+notebooks/.ipynb_checkpoints/
+pathway_enrichment_results.csv
+
+# Mac OS
+.DS_Store
 
 
 # Distribution / packaging

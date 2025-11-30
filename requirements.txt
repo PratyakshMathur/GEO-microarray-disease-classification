@@ -1,0 +1,33 @@
+# Core Scientific Computing
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Data Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+
+# Bioinformatics
+GEOparse>=2.0.0
+gseapy>=1.0.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.0.0
+ipywidgets>=8.0.0
+
+# Utilities
+joblib>=1.3.0
+tqdm>=4.65.0
+
+# Optional: For enhanced performance
+# numba>=0.57.0
+# bottleneck>=1.3.0
+
+# Note for macOS users:
+# If you encounter XGBoost "libomp.dylib" errors, run:
+#   brew install libomp
